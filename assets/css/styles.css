@@ -7,8 +7,8 @@ body {
     background-size:cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    line-height: 40px;
-    font-size: 20px; 
+    line-height: 2.4rem;
+    font-size: 1.3rem; 
 }
 
 nav {
@@ -28,6 +28,7 @@ nav {
     color:#ffffff;
     padding:20px;
     margin-bottom:0px;
+    margin-left: 5%;
 }
 
 .nav-link{
@@ -48,14 +49,14 @@ aside {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 2rem;
     color: #4aaaa5;
     font-weight: bolder;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #4aaaa5;
     font-weight: bolder;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -67,6 +68,7 @@ h2 {
 
 .portim {
     width: 100%;
+    border: solid 1px #4aaaa5;
 }
 
 .porttext {
@@ -85,4 +87,10 @@ footer {
     color:#ffffff;
     border-top: 5px solid #4aaaa5; 
     font-size:0.9rem;
+}
+
+a:hover {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #4aaaa5;
 }
