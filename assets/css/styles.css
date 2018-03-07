@@ -31,6 +31,13 @@ nav {
     margin-left: 5%;
 }
 
+@media (max-width: 767px) {
+    .navbar-text { 
+        width:100%;
+        margin:0px;
+    }
+}
+
 .nav-link{
     color: #4aaaa5;
 }
