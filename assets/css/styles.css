@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    color: #777777;
+    background-image: url(https://www.mountainphotography.com/images/xl/20170415-Eardley-Narrows.jpg);
+    background-blend-mode:screen;
+    background-color: rgba(0, 255, 242, 0.723);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    line-height: 40px;
+    font-size: 20px; 
+}
+
+nav {
+    background-color: #ffffff;
+    border-bottom:solid 2px #cccccc;
+    color: #4aaaa5;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:32px;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding:20px;
+    margin-bottom:0px;
+}
+
+.nav-link{
+    color: #4aaaa5;
+}
+
+.active {
+    background-color: #f8f8f8;
+}
+
+section,
+aside {
+    background-color: #ffffff;
+    border: solid 2px #dddddd;
+    padding:10px;
+    margin-top: 2%;   
+    margin-bottom: 2%;   
+}
+
+h1 {
+    font-size: 30px;
+    color: #4aaaa5;
+    font-weight: bolder;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    font-size: 24px;
+    color: #4aaaa5;
+    font-weight: bolder;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#Berk_pic {
+    width:40%;
+}
+
+.portim {
+    width: 100%;
+}
+
+.porttext {
+    background-color: #4aaaa5;
+    color:#ffffff;
+    text-align: center;
+}
+
+article {
+    text-align: justify;
+}
+
+
+footer {
+    background-color:#666666;
+    color:#ffffff;
+    border-top: 5px solid #4aaaa5; 
+    font-size:0.9rem;
+}
